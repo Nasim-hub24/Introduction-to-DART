@@ -7,11 +7,11 @@ void main() {
   File file = File('students.csv');
 
   String data = '''
-Name,Age,Address
-John,20,New York
-Alice,22,London
-Bob,21,Sydney
-''';
+    Name,Age,Address
+    John,20,New York
+    Alice,22,London
+    Bob,21,Sydney
+    ''';
 
   // Write data to CSV file
   file.writeAsStringSync(data);
